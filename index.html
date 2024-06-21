@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai Srikar's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="icon" type="image/png" href="./assets/user-solid.png">
+
+</head>
+
+<body>
+    <nav id="desktop-nav" class="sticky">
+        <div class="logo">Sai Srikar Gandhe</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Sai Srikar Gandhe</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#certifications" onclick="toggleMenu()">Certifications</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/about-pic.jpg" alt="Sai Srikar Profile picture" />
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Sai Srikar Gandhe</h1>
+            <p class="section__text__p2">Data Scientist/Data Engineer/Data Analyst</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/Sai_Srikar_Resume_June.pdf')">Resume</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="social-container">
+                <img src="./assets/linkedin.png" alt="My Linked profile" class="icon" onclick="location.href='https://www.linkedin.com/in/srikar-3a031019a'">
+                <img src="./assets/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/Srikar-13'">
+                <img src="./assets/email.png" alt="My Email" class="icon-email" onclick="location.href='mailto:srikar.gandhe@gmail.com'">
+            </div>
+        </div>
+    </section>
+    <div style="background-color: rgb(234, 242, 248); color: black; margin: 0; padding: 0;">
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/profile-pic.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>1+years Data Scientist<br />1+years Programmer Analyst Trainee</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Masters in Data Science <br />Bachelor's in Mechanical Engineering</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I'm Sai Srikar Gandhe, a dynamic Data Scientist equipped with a Master's degree in Data Science from Indiana University and a rich background in Mechanical Engineering. With a deep passion for harnessing data to drive impactful insights, I bring a versatile skill set and a hunger for innovation to the table. 
+              My journey through data science has equipped me with a robust toolkit encompassing Data Analytics, Machine Learning, and Visualization. Proficient across multiple programming languages including Python, Java, and SQL, I've delved into the depths of frameworks like PyTorch, TensorFlow, and SkLearn, sculpting solutions that deliver tangible value.
+              In my recent role at Indiana University, I spearheaded data-driven research initiatives within the School of Education, employing tools like Power BI and Tableau to craft compelling visualizations that shed light on institutional trends. Prior to that, my tenure at Cognizant Technology Solutions saw me optimizing trading efficiency and fortifying systems through the deployment of DevOps practices and cutting-edge technologies like Microsoft SQL/Power BI. 
+              I'm eager to collaborate with like-minded professionals on projects that inspire innovation and create real-world impact. Let's connect and explore the endless possibilities that lie at the intersection of data and opportunity.
+
+            </p>
+          </div>
+
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </div>
+      <section id="experience">
+        <div class="section__text">
+        <p class="section__text__p1">Explore My</p>
+        </div>
+        <h1 class="title">Experience</h1>
+        <div class="experience-section-new">
+            <div class="experience-new">
+                <div class="logo-new">
+                    <img src="./assets/IU-logo.png" alt="Indiana University Logo">
+                </div>
+                <div class="experience-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <h2 class="experience-sub-title">Indiana University Bloomington</h2>
+                            <div class="role-container">
+                                <p class="role">Data Scientist</p>
+                            </div>
+                            <div class="dates-container">
+                                <p class="role-dates">May 2023 - Present</p>
+                            </div>
+                            <div class="article-container">
+                                <ul class="experience-list">
+                                    <li>
+                                        <div class="bullet-item">
+                                            <img src="./assets/checkmark.png" alt="Checkmark icon" class="bullet-icon">
+                                            <p>Orchestrated a 50% data-driven research project on the Carnegie Classification. Crafted visualizations to highlight institutional ancestries.</p>
+                                        </div>
+                                        <div class="bullet-item">
+                                            <img src="./assets/checkmark.png" alt="Checkmark icon" class="bullet-icon">
+                                            <p>Harnessed Power BI for 90% of the design of the Tassels Parallel Set Slicer, tracking institutional shifts. Enhanced with year-over-year R and Tableau visualizations.</p>                                            </p>
+                                        </div>
+                                        <div class="bullet-item">
+                                            <img src="./assets/checkmark.png" alt="Checkmark icon" class="bullet-icon">
+                                            <p>Led the development of an interactive website for the American Council of Education (ACE) to display all visualizations, facilitating higher education stakeholders in accessing data-driven insights.</p>
+                                        </div>
+                                      </li>
+                                    </ul>
+                                </div>
+                            </div>               
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="experience-section-new">
+                  <div class="experience-new">
+                      <div class="logo-new">
+                          <img src="./assets/IU-logo.png" alt="Indiana University Logo">
+                      </div>
+                      <div class="experience-details-container">
+                          <div class="about-containers">
+                              <div class="details-container">
+                                  <h2 class="experience-sub-title">Indiana University Bloomington</h2>
+                                  <div class="role-container">
+                                      <p class="role">Associate Instructor</p>
+                                  </div>
+                                  <div class="dates-container">
+                                      <p class="role-dates">January 2024 - May 2024</p>
+                                  </div>
+                                  <div class="article-container">
+                                      <ul class="experience-list">
+                                          <li>
+                                              <div class="bullet-item">
+                                                  <img src="./assets/checkmark.png" alt="Checkmark icon" class="bullet-icon">
+                                                  <p>Delivered 95% bespoke mentorship to INFO-I 513 students, amplifying their grasp of intricate AI concepts and real-world applications.</p>
+                                              </div>
+                                              <div class="bullet-item">
+                                                  <img src="./assets/checkmark.png" alt="Checkmark icon" class="bullet-icon">
+                                                  <p>Acted as a client for student teams, mentoring them on mid-term and final projects such as machine learning, sentiment analysis, NLP, and emotion analysis, resulting in a 15% increase in project completion rates and adherence to agile methodologies.</p>
+                                              </div>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>               
+                          </div>
+                      </div>
+                  </div>
+                </div>
+
+                <div class="experience-section-new">
+                  <div class="experience-new">
+                      <div class="logo-new">
+                          <img src="./assets/cognizant-logo.webp" alt="Indiana University Logo">
+                      </div>
+                      <div class="experience-details-container">
+                          <div class="about-containers">
+                              <div class="details-container">
+                                  <h2 class="experience-sub-title">Cognizant Technology Solutions</h2>
+                                  <div class="role-container">
+                                      <p class="role">Programmer Analyst Trainee</p>
+                                  </div>
+                                  <div class="dates-container">
+                                      <p class="role-dates">August 2021 - June 2022</p>
+                                  </div>
+                                  <div class="article-container">
+                                      <ul class="experience-list">
+                                          <li>
+                                              <div class="bullet-item">
+                                                  <img src="./assets/checkmark.png" alt="Checkmark icon" class="bullet-icon">
+                                                  <p>Leveraged solutions at Bord Gais, Ireland, boosting trading efficiency significantly by 45%.</p>
+                                              </div>
+                                              <div class="bullet-item">
+                                                  <img src="./assets/checkmark.png" alt="Checkmark icon" class="bullet-icon">
+                                                  <p>Centralized data with Microsoft SQL/Power BI, resulting in a substantial 30% increase in trading trend identification.</p>
+                                              </div>
+                                              <div class="bullet-item">
+                                                <img src="./assets/checkmark.png" alt="Checkmark icon" class="bullet-icon">
+                                                <p>Applied DevOps methodologies to establish a continuous integration and deployment pipeline, optimizing software development workflows for faster, error-free releases and seamless updates across systems. </p>
+                                            </div>
+                                            <div class="bullet-item">
+                                              <img src="./assets/checkmark.png" alt="Checkmark icon" class="bullet-icon">
+                                              <p>Orchestrated the integration of Salesforce and CCNB systems, effectively synchronizing customer data and financial information with trading operations, resulting in a unified and efficient workflow. </p>
+                                          </div>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>               
+                          </div>
+                      </div>
+                  </div>
+                </div>
+
+                <div class="experience-section-new">
+                  <div class="experience-new">
+                      <div class="logo-new">
+                          <img src="./assets/cognizant-logo.webp" alt="Indiana University Logo">
+                      </div>
+                      <div class="experience-details-container">
+                          <div class="about-containers">
+                              <div class="details-container">
+                                  <h2 class="experience-sub-title">Cognizant Technology Solutions</h2>
+                                  <div class="role-container">
+                                      <p class="role">Programmer Analyst Trainee Intern</p>
+                                  </div>
+                                  <div class="dates-container">
+                                      <p class="role-dates">March 2021 - July 2021</p>
+                                  </div>
+                                  <div class="article-container">
+                                      <ul class="experience-list">
+                                          <li>
+                                              <div class="bullet-item">
+                                                  <img src="./assets/checkmark.png" alt="Checkmark icon" class="bullet-icon">
+                                                  <p>Engaged in comprehensive analysis and optimization of software systems, utilizing Core JAVA, Junit, Maven, SQL.</p>
+                                              </div>
+                                              <div class="bullet-item">
+                                                  <img src="./assets/checkmark.png" alt="Checkmark icon" class="bullet-icon">
+                                                  <p>Skillfully applied expertise in web technologies like HTML, CSS, and XML to implement automation frameworks across two internship projects. Executed data-driven assessments using Selenium, Java, Maven, TestNG, Apache POI, Cucumber, and Jenkins.</p>
+                                              </div>
+                                              <div class="bullet-item">
+                                                <img src="./assets/checkmark.png" alt="Checkmark icon" class="bullet-icon">
+                                                <p>Proficiently navigated Agile processes while adeptly dissecting business, functional, and technical specifications for informed decision-making.
+                                                </p>
+                                            </div>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>               
+                          </div>
+                      </div>
+                  </div>
+                </div>
+
+                <div class="experience-section-new">
+                  <div class="experience-new">
+                      <div class="logo-new">
+                          <img src="./assets/inmo-logo.png" alt="Indiana University Logo">
+                      </div>
+                      <div class="experience-details-container">
+                          <div class="about-containers">
+                              <div class="details-container">
+                                  <h2 class="experience-sub-title">Inmovidu</h2>
+                                  <div class="role-container">
+                                      <p class="role">Machine Learning Intern</p>
+                                  </div>
+                                  <div class="dates-container">
+                                      <p class="role-dates">August 2020 - September 2020</p>
+                                  </div>
+                                  <div class="article-container">
+                                      <ul class="experience-list">
+                                          <li>
+                                              <div class="bullet-item">
+                                                  <img src="./assets/checkmark.png" alt="Checkmark icon" class="bullet-icon">
+                                                  <p>Utilized Exploratory Data Analysis techniques to analyze the Titanic dataset, extracting valuable insights.</p>
+                                              </div>
+                                              <div class="bullet-item">
+                                                  <img src="./assets/checkmark.png" alt="Checkmark icon" class="bullet-icon">
+                                                  <p>Employed machine learning algorithms including Logistic Regression, KNN Classification, Decision Tree Algorithm, and Random Forest Classification to predict passenger survival.</p>
+                                              </div>
+                                              <div class="bullet-item">
+                                                <img src="./assets/checkmark.png" alt="Checkmark icon" class="bullet-icon">
+                                                <p>Demonstrated proficiency in Data analysis and machine learning for accurate predictions and informed decision-making.
+                                                </p>
+                                            </div>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>               
+                          </div>
+                      </div>
+                  </div>
+                </div> 
+
+
+                <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#skills'"/> 
+              </section>
+              <div style="background-color: rgb(234, 242, 248); color: black; margin: 0; padding: 0;">
+              <section id="skills">
+                <div class="section__text">
+                <p class="section__text__p1">Explore My </p>
+                </div>
+                <h1 class="title">Skills</h1>
+                <div class="details-container">
+                  <img src="./assets/experience.png" alt="Experience icon" class="icon"/>
+                  <h3>Skills</h3>
+                  <div class="skills-container">
+                      <ul class="skill-list">
+                          <li class="skill-item">Python</li>
+                          <li class="skill-item">Java</li>
+                          <li class="skill-item">Microsoft Office</li>
+                          <li class="skill-item">SQL</li>
+                          <li class="skill-item">C</li>
+                          <li class="skill-item">JavaScript</li>
+                          <li class="skill-item">XML</li>
+                          <li class="skill-item">Postman</li>
+                          <li class="skill-item">R</li>
+                          <li class="skill-item">Git</li>
+                          <li class="skill-item">Scala</li>
+                          <li class="skill-item">Hadoop</li>
+                          <li class="skill-item">Docker</li>
+                          <li class="skill-item">NLTK</li>
+                          <li class="skill-item">HTML</li>
+                          <li class="skill-item">CSS</li>
+                          <li class="skill-item">Spark</li>
+                          <li class="skill-item">Google Cloud Platform</li>
+                          <li class="skill-item">Public Cloud (AWS, Azure)</li>
+                          <li class="skill-item">Data Structures and Algorithms</li>
+                          <li class="skill-item">VS Code</li>
+                          <li class="skill-item">Eclipse</li>
+                          <li class="skill-item">Tableau</li>
+                          <li class="skill-item">Microsoft PowerBI</li>
+                          <li class="skill-item">Alteryx</li>
+                          <li class="skill-item">Linux</li>
+                          <li class="skill-item">DevOps</li>
+                          <li class="skill-item">Dataiku</li>
+                          <li class="skill-item">Postgre Sql</li>
+                          <li class="skill-item">PL/SQL</li>
+                          <li class="skill-item">MangoDB</li>
+                          <li class="skill-item">Selenium</li>
+                          <li class="skill-item">Autocad</li>
+                          <li class="skill-item">Blender</li>
+                          <li class="skill-item">Unity</li>
+                          <li class="skill-item">A/B Testing</li>
+                          <li class="skill-item">ML</li>
+                          <li class="skill-item">AI</li>
+                        
+      
+                      </ul>
+                  </div>
+                  
+              </div>
+            </div>
+                <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'"/>
+              </section>
+              <div style="background-color: rgb(234, 242, 248); color: black; margin: 0; padding: 0;"></div>
+              <section id="projects">
+                  <div class="section__text">
+                  <p class="section__text__p1">Browse My Recent</p>
+                  </div>
+                  <h1 class="title">Projects</h1>
+                  <div class="experience-details-container">
+                      <div class="about-containers">
+                      <div class="details-container color-container">
+                          <div class="article-container">
+                              <img src="./assets/Malaria.jpeg" alt="project 1" class="project-img"/>
+                          </div>
+                          <h2 class="experience-sub-title project-title">Detection Of Malaria</h2>
+                          <div class="btn-container">
+                              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Srikar-13'">GitHub</button>
+                              
+                          </div>
+                      </div>
+                      <div class="details-container color-container">
+                          <div class="article-container">
+                              <img src="./assets/air.png" alt="project 1" class="project-img"/>
+                          </div>
+                          <h2 class="experience-sub-title project-title">Multi-variate Time Series Forecasting</h2>
+                          <div class="btn-container">
+                              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Srikar-13/Multi-variate-Time-Series-Forecasting---Air-Quality'">GitHub</button>
+                              
+                          </div>
+                      </div>
+                      <div class="details-container color-container">
+                          <div class="article-container">
+                              <img src="./assets/amazon.png" alt="project 1" class="project-img"/>
+                          </div>
+                          <h2 class="experience-sub-title project-title">Amazon Prime Recommendation System</h2>
+                          <div class="btn-container">
+                              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Srikar-13/Amazon_Recommendation'">GitHub</button>
+                              
+                          </div>
+                      </div>
+                  </div>
+                  <div class="experience-details-container">
+                      <div class="about-containers">
+                      <div class="details-container color-container">
+                              <div class="article-container">
+                                  <img src="./assets/churn.png" alt="project 1" class="project-img"/>
+                              </div>
+                              <h2 class="experience-sub-title project-title">Bank Customer Churn Prediction</h2>
+                              <div class="btn-container">
+                                  <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Srikar-13/Bank_Churn_Prediction'">GitHub</button>
+                                  
+                              </div>
+                      </div>
+                      <div class="details-container color-container">
+                          <div class="article-container">
+                              <img src="./assets/nba.jpeg" alt="project 1" class="project-img"/>
+                          </div>
+                          <h2 class="experience-sub-title project-title">NBA PLAYERS STATISTICS VISUALIZATION</h2>
+                          <div class="btn-container">
+                              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Srikar-13/NBA_Players_Visualization'">GitHub</button>
+                              
+                          </div>
+                      </div>
+                      <div class="details-container color-container">
+                          <div class="article-container">
+                              <img src="./assets/sui.png" alt="project 6" class="project-img"/>
+                          </div>
+                          <h2 class="experience-sub-title project-title">Suicide Rates Overview</h2>
+                          <div class="btn-container">
+                              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Srikar-13/MGMT-INFO-I535-Suicide_rates-_Overview'">GitHub</button>
+                              
+                          </div>
+                      </div>
+                    </div>
+                    <div class="experience-details-container">
+                      <div class="about-containers">
+                      <div class="details-container color-container">
+                              <div class="article-container">
+                                  <img src="./assets/dbms.webp" alt="project 1" class="project-img"/>
+                              </div>
+                              <h2 class="experience-sub-title project-title">DATA VISUALIATION IN DATABASE SYSTEMS</h2>
+                              <div class="btn-container">
+                                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Srikar-13/DBMS_-I519_Project'">GitHub</button>
+                            
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                      <div class="article-container">
+                          <img src="./assets/stats.jpeg" alt="project 6" class="project-img"/>
+                      </div>
+                      <h2 class="experience-sub-title project-title">Comparative Analysis of Student Performance</h2>
+                      <div class="btn-container">
+                          <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Srikar-13/STAT_S_520_Data_Analysis_Project'">GitHub</button>
+                          
+                      </div>
+                  </div>
+                  <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/emo.jpeg" alt="project 6" class="project-img"/>
+                    </div>
+                    <h2 class="experience-sub-title project-title">EmoNet Advanced Emotion Classification </h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Srikar-13/EmoNet-Advanced-Emotion-Classification'">GitHub</button>
+                        
+                    </div>
+                </div>
+
+                  </div>
+                  </div> 
+                  <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#certifications'"/> 
+                </section>
+                <div style="background-color: rgb(234, 242, 248); color: black; margin: 0; padding: 0;">
+                  <section id="certifications">
+                      <div class="section__text">
+                          <p class="section__text__p1">Explore My </p>
+                      </div>
+                      <h1 class="title" style="text-align: center;">Certifications</h1>
+                      <div class="details-container" style="display: flex; flex-direction: column; align-items: center;">
+                          <img src="./assets/certi.jpeg" alt="Experience icon" class="icon" style="margin-bottom: 20px;" />
+                          <h3 style="text-align: center;">Certifications</h3>
+                          <ol style="padding-left: 20px; text-align: left;">
+                              <li>
+                                  <p><b>Build responsive website using HTML5 and CSS3</b> - Udemy</p>
+                              </li>
+                              <li>
+                                  <p><b>Programming for Everybody (Getting Started with Python)</b> - Coursera</p>
+                              </li>
+                              <li>
+                                  <p><b>Python Data Structures</b> - Coursera</p>
+                              </li>
+                              <li>
+                                  <p><b>Python For Data Science</b> - GreyAtom</p>
+                              </li>
+                              <li>
+                                  <p><b>ADDITIVE MANUFACTURING</b> - Shigemi Scientific Solutions</p>
+                              </li>
+                              <li>
+                                  <p><b>Getting Started with AWS Machine Learning</b> - Coursera</p>
+                              </li>
+                              <li>
+                                  <p><b>Fundamentals of Artificial Intelligence</b> - NPTEL</p>
+                              </li>
+                              <li>
+                                  <p><b>Programming for Everybody (Getting Started with Python)</b> - Coursera</p>
+                              </li>
+                              <li>
+                                  <p><b>Certified Professional AutoCAD</b> - VNRVJIET</p>
+                              </li>
+                          </ol>
+                      </div>
+                  </section>
+              </div>
+                         
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">srikar.gandhe@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/srikar-3a031019a/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Sai Srikar Gandhe. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
